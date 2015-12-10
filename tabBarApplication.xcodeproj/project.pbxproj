@@ -15,6 +15,7 @@
 		F05661A41C19ACDC00253467 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F05661A21C19ACDC00253467 /* LaunchScreen.storyboard */; };
 		F05661AF1C19ACDC00253467 /* tabBarApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05661AE1C19ACDC00253467 /* tabBarApplicationTests.swift */; };
 		F05661BA1C19ACDC00253467 /* tabBarApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05661B91C19ACDC00253467 /* tabBarApplicationUITests.swift */; };
+		F05661C81C19B24200253467 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05661C71C19B24200253467 /* NavigationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F05661B51C19ACDC00253467 /* tabBarApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tabBarApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F05661B91C19ACDC00253467 /* tabBarApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabBarApplicationUITests.swift; sourceTree = "<group>"; };
 		F05661BB1C19ACDC00253467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F05661C71C19B24200253467 /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				F05661991C19ACDC00253467 /* FirstViewController.swift */,
 				F056619B1C19ACDC00253467 /* SecondViewController.swift */,
 				F056619D1C19ACDC00253467 /* Main.storyboard */,
+				F05661C71C19B24200253467 /* NavigationViewController.swift */,
 				F05661A01C19ACDC00253467 /* Assets.xcassets */,
 				F05661A21C19ACDC00253467 /* LaunchScreen.storyboard */,
 				F05661A51C19ACDC00253467 /* Info.plist */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F05661C81C19B24200253467 /* NavigationViewController.swift in Sources */,
 				F056619C1C19ACDC00253467 /* SecondViewController.swift in Sources */,
 				F05661981C19ACDC00253467 /* AppDelegate.swift in Sources */,
 				F056619A1C19ACDC00253467 /* FirstViewController.swift in Sources */,
